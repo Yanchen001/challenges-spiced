@@ -31,3 +31,21 @@ body {
   color: #ffffff;
   border-radius: 10px;
 }
+
+.profile{
+  display:flex;
+  flex-direction: column;
+}
+
+img {
+  align-self: center;
+}
+
+.tech-stack__list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 10px;
+  row-gap: 10px;
+  ;
+}
