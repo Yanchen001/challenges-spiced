@@ -1,28 +1,20 @@
 
 import './App.css';
-import { Header } from './Header/Header';
-import './EntryForm/EntryForm';
-import { InputBox, SubmitButton } from './EntryForm/EntryForm';
-import { Footer } from './Footer/Footer';
+import { Header } from './Components/Header/Header';
+import './Components/EntryForm/EntryForm';
+import { EntryForm } from './Components/EntryForm/EntryForm';
+import { Footer } from './Components/Footer/Footer';
+import { EntrySection } from './Components/EntrySection/EntrySection';
 
-function App() {
+
+function App({className="App"}) {
   return (
   <>
-  <Header text = "JOURNAL" color = "black"/>
-  <InputBox text = "Motto" ></InputBox>
-  <InputBox text = "Notes" ></InputBox>
-  <SubmitButton text ="Create"/>
-
-
+  <Header text = "JOURNAL"></Header>
+  <EntryForm />
+  <EntrySection />
   <Footer text = "Journal App - 2028"/>
-  
-  
-  
   </>)
-  
-  
-
-    
 }
 
 export default App;
