@@ -14,7 +14,7 @@ export default function App() {
     // const inputHoliday = formData.holiday.value;
     // const inputDate = formData.date.value;
 
-    console.log(inputHoliday)
+    //console.log(inputHoliday)
     setHoliday(formData.holiday.value)
     setDate(formData.date.value)
     
